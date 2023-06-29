@@ -1,0 +1,31 @@
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 8em auto;
+  gap: 10px;
+  width: 200px;
+}
+
+.Contacts label {
+  padding: 0 0 0 10px;
+}
+
+.Contacts input {
+  width: 200px;
+  height: 26px;
+  border: 1px solid lightgrey;
+  border-radius: 12px;
+  padding: 0 0 0 10px;
+}
+
+.Contacts input[type="submit"] {
+  width: 214px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.Contacts__credentialsCond {
+  color: red;
+  font-size: 0.7rem;
+  text-align: center;
+}
