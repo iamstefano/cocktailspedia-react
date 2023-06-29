@@ -1,0 +1,19 @@
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.SearchBar input {
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.SearchList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}

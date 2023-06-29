@@ -15,7 +15,7 @@ const Contacts = () => {
     setCredentialsCond("");
 
     if (nameInput === users[1].username && passInput === users[1].password) {
-      return alert("Benenuto");
+      return alert("Benvenuto");
     }
     setCredentialsCond(
       `La password di ${nameInput} non è ${passInput} piuttosto è ${users[1].password}`
