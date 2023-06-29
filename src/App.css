@@ -1,0 +1,13 @@
+.App ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  font-weight: 600;
+}
+
+.App h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
