@@ -4,7 +4,7 @@ import ProductSection from "./components/productSection";
 import ProductList from "./components/productList";
 import Contacts from "./components/contacts/Contacts";
 import "./App.css";
-import SearchBar from "./components/searchBar/SearchBar";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   const [productSection, setProductSection] = useState("");
@@ -16,7 +16,6 @@ function App() {
       case "":
         return (
           <>
-            <SearchBar />
             <ProductList name="rum" setProductSection={setProductSection} />
             <ProductList name="vodka" setProductSection={setProductSection} />
             <ProductList name="gin" setProductSection={setProductSection} />
@@ -35,10 +34,7 @@ function App() {
   return (
     <div className="App">
       <h1>Cocktailspedia</h1>
-      <ul>
-        <li onClick={() => setProductSection("")}>Home</li>
-        <li onClick={() => setProductSection("contacts")}>Contacts</li>
-      </ul>
+      <Navbar setProductSection={setProductSection} />
       {onRender()}
     </div>
   );
