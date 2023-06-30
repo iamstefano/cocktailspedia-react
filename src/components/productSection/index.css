@@ -1,4 +1,5 @@
 .ProductSection {
+  position: relative;
 }
 
 .ProductSection p {
