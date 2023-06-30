@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { GET } from "../../utils/HTTP";
 import ProductItem from "../productItem";
 import "./index.css";
-import SearchBar from "../searchBar/SearchBar";
+import SearchBar from "../navbar/Navbar";
 
 const ProductList = ({ name, setProductSection }) => {
   const [listData, setListData] = useState([]);

@@ -1,0 +1,19 @@
+.Navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0 24px;
+  background-color: #8ef6fa;
+  height: 50px;
+  list-style-type: none;
+}
+
+.Navbar li {
+  cursor: pointer;
+}
+
+.Navbar li:hover {
+  text-decoration: underline;
+}
