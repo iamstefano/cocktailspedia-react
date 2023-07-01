@@ -6,6 +6,7 @@ import Contacts from "./components/contacts/Contacts";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Filters from "./components/filters/Filters";
+import Footer from "./components/footer";
 
 function App() {
   const [productSection, setProductSection] = useState("");
@@ -48,6 +49,7 @@ function App() {
       <h1>Cocktailspedia</h1>
       <Navbar setProductSection={setProductSection} />
       {onRender()}
+      <Footer />
     </div>
   );
 }
